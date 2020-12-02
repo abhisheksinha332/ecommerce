@@ -1,0 +1,70 @@
+*{
+    scroll-behavior: smooth;
+   }
+   
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.home{
+    background-color: skyblue;
+    
+    padding-top: 4%;
+}
+.intro-img{
+    width: 10%;
+}
+.about{
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159__340.jpg") ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    color: white;
+}
+.education{
+    
+    padding-top: 50px;
+}
+.education img{
+    padding-top: 50px;
+    width: 130px;
+}
+.skills{
+    background-color: violet;
+    color: white;
+    padding-top: 50px;
+    
+}
+.skills ul{
+    padding-top: 60px;
+    list-style-type:none ;
+}
+.skills ul li{
+    font-size: 26px;
+}
+.hobbies{
+    background-color: rgb(241, 123, 54);
+    
+    padding-top: 50px;
+    color: whitte;
+}
+.hobbies img{
+    padding-top: 50px;
+    width: 180px;
+}
+.contact{
+    padding-top: 50px;
+    background-color: rgb(6, 81, 245);
+    color: wheat;
+    
+}
+.contact .social-media img{
+    padding-top: 40px;
+    width: 60px;
+}
